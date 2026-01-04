@@ -2,6 +2,7 @@
 *.exe
 *.out
 *.o
+*.bat
 /build/
 
 # Ignore VS Code settings
