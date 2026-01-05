@@ -1,5 +1,6 @@
 #include "utils.h"
 #include <stdio.h>
+#include <ctype.h>
 
 int is_vowel(char c)
 {
@@ -20,4 +21,11 @@ void print_long_arr(long* arr, int n)
         if (i < n - 1) printf(", ");
     }
     printf("]\n");
+}
+
+void convert_to_uppercase(char* str)
+{
+    for (int i = 0; str[i] != '\0'; ++i) {
+        str[i] = toupper(str[i]);
+    }
 }

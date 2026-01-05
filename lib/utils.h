@@ -3,5 +3,6 @@
 
 int is_vowel(char c);
 void print_long_arr(long* arr, int n);
+void convert_to_uppercase(char* str);
 
 #endif
