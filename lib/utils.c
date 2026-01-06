@@ -29,3 +29,19 @@ void convert_to_uppercase(char* str)
         str[i] = toupper(str[i]);
     }
 }
+
+void convert_to_lowercase(char* str)
+{
+    for (int i = 0; str[i] != '\0'; ++i) {
+        str[i] = tolower(str[i]);
+    }
+}
+
+void remove_whitespaces(char* str)
+{
+    int j = 0;
+    for (int i = 0; str[i] != '\0'; ++i) {
+        if (str[i] != ' ') str[j++] = str[i];
+    }
+    str[j] = '\0';
+}
