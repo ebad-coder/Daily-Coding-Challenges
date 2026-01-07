@@ -17,9 +17,9 @@ I am a computer systems engineering student. My goal is not just to solve the al
 
 ---
 
-## Project Structure
+## Structure
 
 ```text
 .
-├── src/                # The main solution files for each daily challenge
-├── lib/                # Custom implementation of helpers functions and data structures
+├── code/              The main solution files for each daily challenge
+├── lib/               Custom implementation of helpers functions and data structures
